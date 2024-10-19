@@ -40,7 +40,7 @@ const Home: React.FC = () => {
               className='hover:text-stone-900 active:text-stone-900'
               target='_blank'
               href='https://github.com/sabler'
-              aria-label="See what I've been doing on the side"
+              aria-label="See what I've been coding"
             >
               Github
             </Link>
