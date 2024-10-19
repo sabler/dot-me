@@ -11,7 +11,7 @@ const Home: React.FC = () => {
               className='hover:text-stone-900 active:text-stone-900'
               target='_blank'
               href='https://www.linkedin.com/in/sabler'
-              aria-label="See what I've been up to professionally"
+              aria-label="LinkedIn - See what I've been up to professionally"
             >
               LinkedIn &
             </Link>
@@ -20,7 +20,7 @@ const Home: React.FC = () => {
               className='hover:text-stone-900 active:text-stone-900'
               target='_blank'
               href='https://www.goodreads.com/user/show/128718362-sabler'
-              aria-label="See what I've been reading"
+              aria-label="Goodreads - See what I've been reading"
             >
               Goodreads &
             </Link>
@@ -30,7 +30,7 @@ const Home: React.FC = () => {
               className='hover:text-stone-900 active:text-stone-900'
               target='_blank'
               href='https://letterboxd.com/sabler/'
-              aria-label="See what movies I've been watching"
+              aria-label="Letterboxed - See what movies I've been watching"
             >
               Letterboxd &
             </Link>
@@ -40,7 +40,7 @@ const Home: React.FC = () => {
               className='hover:text-stone-900 active:text-stone-900'
               target='_blank'
               href='https://github.com/sabler'
-              aria-label="See what I've been coding"
+              aria-label="Github - See what I've been coding"
             >
               Github
             </Link>
