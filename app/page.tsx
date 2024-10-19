@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Footer from './components/Footer';
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
     <main>
       <div className='flex h-[95vh] w-full place-content-center items-center'>
@@ -11,7 +11,7 @@ export default function Home() {
               className='hover:text-stone-900 active:text-stone-900'
               target='_blank'
               href='https://www.linkedin.com/in/sabler'
-              aria-label='Connect with me on LinkedIn'
+              aria-label="See what I've been up to professionally"
             >
               LinkedIn &
             </Link>
@@ -30,7 +30,7 @@ export default function Home() {
               className='hover:text-stone-900 active:text-stone-900'
               target='_blank'
               href='https://letterboxd.com/sabler/'
-              aria-label='Judge me gently on the movies I like'
+              aria-label="See what movies I've been watching"
             >
               Letterboxd &
             </Link>
@@ -39,16 +39,18 @@ export default function Home() {
             <Link
               className='hover:text-stone-900 active:text-stone-900'
               target='_blank'
-              href='https://www.ign.com/playlist/xsarien/library/beat'
-              aria-label="Games I've bothered finishing"
+              href='https://github.com/sabler'
+              aria-label="See what I've been doing on the side"
             >
-              Playlist
+              Github
             </Link>
           </p>
         </div>
       </div>
 
-      
+      <Footer />
     </main>
   );
 }
+
+export default Home;
