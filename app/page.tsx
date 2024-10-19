@@ -30,7 +30,7 @@ const Home: React.FC = () => {
               className='hover:text-stone-900 active:text-stone-900'
               target='_blank'
               href='https://letterboxd.com/sabler/'
-              aria-label="Letterboxed - See what movies I've been watching"
+              aria-label="Letterboxd - See what movies I've been watching"
             >
               Letterboxd &
             </Link>
