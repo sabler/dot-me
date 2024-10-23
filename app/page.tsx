@@ -12,7 +12,7 @@ const Home: React.FC = () => {
               href='https://www.aedin.com/in/sabler'
               aria-label="LinkedIn - See what I've been up to professionally"
             >
-              aedIn &
+              LinkedIn &
             </a>
             <br />
             <a
