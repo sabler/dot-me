@@ -9,7 +9,7 @@ const Home: React.FC = () => {
             <a
               className='hover:text-stone-900 active:text-stone-900'
               target='_blank'
-              href='https://www.aedin.com/in/sabler'
+              href='https://www.linkedin.com/in/sabler'
               aria-label="LinkedIn - See what I've been up to professionally"
             >
               LinkedIn &
