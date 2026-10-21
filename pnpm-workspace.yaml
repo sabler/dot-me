@@ -1,0 +1,8 @@
+packages:
+  - .
+
+# unrs-resolver (pulled in by eslint-config-next) ships prebuilt binaries as
+# optional dependencies, so its postinstall fallback isn't needed. Declaring it
+# keeps pnpm 11+ from failing the install on an unreviewed build script.
+allowBuilds:
+  unrs-resolver: false
